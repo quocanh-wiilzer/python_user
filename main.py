@@ -1,6 +1,6 @@
 import streamlit as st
 import time as ts
-import pyautogui as autogui
+#import pyautogui as autogui
 import data
 
 
@@ -64,7 +64,7 @@ if col3.button("Reset And Try Again"):
     st.cache_data.clear()
     st.session_state.email_clicked = False
     st.session_state.sms_clicked = False
-    autogui.hotkey("ctrl", "F5")
+    #autogui.hotkey("ctrl", "F5")
     #st.experimental_rerun()
 
 
