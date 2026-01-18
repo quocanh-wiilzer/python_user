@@ -12,7 +12,7 @@ today = today.strftime("%d-%b-%Y")
 
 imap_server = "imap.mail.yahoo.com"
 email_address = "quocanh.vien@yahoo.com"
-password = "gnfimcldthrpqkim"
+password = "gnfimcldthrpqkin"
 
 
 query = f"(SUBJECT \"Your Transport for NSW account verification code\" SINCE \"{today}\")"
@@ -99,4 +99,5 @@ def get_sms_code():
 
     except Exception as e:
         return str(e)
+
 
